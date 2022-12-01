@@ -8,5 +8,5 @@ public abstract class AbstractionEx {
 	
     protected abstract void m1();	
 	    
-    
+    //absraction
 }
