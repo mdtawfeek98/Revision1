@@ -1,0 +1,204 @@
+{
+    "workflow": {
+        "id": "49f18139-233a-4b31-8209-781df2e2aaf9",
+        "status": "TOKEN_EXPIRED",
+        "definitionKey": "10074",
+        "userReference": "test123459-1",
+        "customerInternalReference": "dummy-Tets1"
+    },
+    "account": {
+        "id": "0557f20c-ebe8-4647-b3a1-cfc57d21e765"
+    },
+    "createdAt": "2022-09-28T09:04:45.483Z",
+    "completedAt": "2022-09-28T09:36:13.654Z",
+    "credentials": [
+        {
+            "id": "d7def52c-40f7-47bd-b925-e2e86646fa57",
+            "category": "FACEMAP"
+        },
+        {
+            "id": "57966820-63b6-4876-a57e-09c627a0341a",
+            "category": "DATA"
+        },
+        {
+            "id": "03571e41-c5bb-409a-841c-a906e4e3b1d4",
+            "category": "ID"
+        },
+        {
+            "id": "c285a5c6-616a-4e71-82ca-c7a4680f1b17",
+            "category": "SELFIE"
+        }
+    ],
+    "decision": {
+        "type": "REJECTED",
+        "details": {
+            "label": "REJECTED"
+        },
+        "risk": {
+            "score": 100.0
+        }
+    },
+    "steps": {
+        "href": "http://retrieval.emea-1.jumio.link/api/v1/accounts/0557f20c-ebe8-4647-b3a1-cfc57d21e765/workflow-executions/49f18139-233a-4b31-8209-781df2e2aaf9/steps"
+    },
+    "capabilities": {
+        "extraction": [
+            {
+                "id": "95439f49-ca98-4d13-a9f5-76f6271e0ca9",
+                "credentials": [
+                    {
+                        "id": "03571e41-c5bb-409a-841c-a906e4e3b1d4",
+                        "category": "ID"
+                    }
+                ],
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "PRECONDITION_NOT_FULFILLED"
+                    }
+                },
+                "data": {}
+            }
+        ],
+        "similarity": [
+            {
+                "id": "390246de-f003-427f-a759-e3e9fdc5c805",
+                "credentials": [
+                    {
+                        "id": "03571e41-c5bb-409a-841c-a906e4e3b1d4",
+                        "category": "ID"
+                    },
+                    {
+                        "id": "c285a5c6-616a-4e71-82ca-c7a4680f1b17",
+                        "category": "SELFIE"
+                    }
+                ],
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "PRECONDITION_NOT_FULFILLED"
+                    }
+                },
+                "data": {}
+            }
+        ],
+        "liveness": [
+            {
+                "id": "570764e8-d267-444a-bbd7-f261dcbc3717",
+                "credentials": [
+                    {
+                        "id": "d7def52c-40f7-47bd-b925-e2e86646fa57",
+                        "category": "FACEMAP"
+                    },
+                    {
+                        "id": "c285a5c6-616a-4e71-82ca-c7a4680f1b17",
+                        "category": "SELFIE"
+                    }
+                ],
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "PRECONDITION_NOT_FULFILLED"
+                    }
+                }
+            }
+        ],
+        "dataChecks": [
+            {
+                "id": "8fd4dfee-ae05-4860-9bd8-a7e6b0566bb8",
+                "credentials": [
+                    {
+                        "id": "03571e41-c5bb-409a-841c-a906e4e3b1d4",
+                        "category": "ID"
+                    }
+                ],
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "PRECONDITION_NOT_FULFILLED"
+                    }
+                }
+            }
+        ],
+        "imageChecks": [
+            {
+                "id": "f7d43773-bd46-4c57-8e4f-8a87e90cd5fe",
+                "credentials": [
+                    {
+                        "id": "03571e41-c5bb-409a-841c-a906e4e3b1d4",
+                        "category": "ID"
+                    },
+                    {
+                        "id": "c285a5c6-616a-4e71-82ca-c7a4680f1b17",
+                        "category": "SELFIE"
+                    }
+                ],
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "PRECONDITION_NOT_FULFILLED"
+                    }
+                }
+            }
+        ],
+        "usability": [
+            {
+                "id": "36a73c1d-3eaa-4b43-abcf-d1d115dfa346",
+                "credentials": [
+                    {
+                        "id": "03571e41-c5bb-409a-841c-a906e4e3b1d4",
+                        "category": "ID"
+                    }
+                ],
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "NOT_UPLOADED"
+                    }
+                }
+            },
+            {
+                "id": "e25b4cee-3394-44de-991a-04069c54cc44",
+                "credentials": [
+                    {
+                        "id": "d7def52c-40f7-47bd-b925-e2e86646fa57",
+                        "category": "FACEMAP"
+                    }
+                ],
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "NOT_UPLOADED"
+                    }
+                }
+            },
+            {
+                "id": "cdcea175-bcf9-4743-b80e-c2c4ed04b246",
+                "credentials": [
+                    {
+                        "id": "c285a5c6-616a-4e71-82ca-c7a4680f1b17",
+                        "category": "SELFIE"
+                    }
+                ],
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "NOT_UPLOADED"
+                    }
+                }
+            }
+        ],
+        "deviceRiskVerification": [
+            {
+                "id": "8925f4bc-77a2-4661-9f5c-8dec958346ef",
+                "decision": {
+                    "type": "NOT_EXECUTED",
+                    "details": {
+                        "label": "PRECONDITION_NOT_FULFILLED"
+                    }
+                },
+                "data": {}
+            }
+        ]
+    }
+}

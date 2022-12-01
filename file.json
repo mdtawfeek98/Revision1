@@ -1,0 +1,33 @@
+{
+   "intitutename":"Ayti",
+    "batch":[
+	{
+	"BatchNumber":"Batch1",
+	"StudentList":[
+			{
+			"studentname":"vijay",
+			"StudentPhonenumber":[
+						{
+							"primarynumber":"9790784985",
+							"secondnumber":"4546546"
+						}
+					     ]
+			},
+			{
+			"studentname":"tawfeek",
+			"StudentPhonenumber":[
+
+						{
+							"primarynumber":"9784985",
+							"secondnumber":"hsl"
+						}
+			]
+			}			
+		]
+	},
+	{
+	}
+     ]
+
+
+}
